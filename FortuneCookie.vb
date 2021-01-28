@@ -2,7 +2,7 @@
 'RCET0265
 'Spring 2021
 'Fortune Cookie
-'
+'https://github.com/rilelaur/FortuneCookie_LR.git
 
 'The program will give the user a wisdom when they open the program
 Module FortuneCookie
