@@ -4,6 +4,9 @@
 'Fortune Cookie
 'https://github.com/rilelaur/FortuneCookie_LR.git
 
+Option Explicit On
+Option Strict On
+
 'The program will give the user a wisdom when they open the program
 Module FortuneCookie
 
@@ -14,7 +17,7 @@ Module FortuneCookie
         Randomize()
 
         'Generates a number between 0 and 2
-        wisdomNumber = Int(3 * Rnd())
+        wisdomNumber = CInt(3 * Rnd())
 
         'Gives different wisdom based off of the number generated
         If wisdomNumber = 0 Then
